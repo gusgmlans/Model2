@@ -1,0 +1,13 @@
+<Context>
+	<Resource name="jdbc/db14hhm"
+					auth="Container"
+					type="javax.sql.DataSource"
+					username="dbid14hhm"
+					password="dbpw14hhm"
+					driverClassName="com.mysql.jdbc.Driver"
+					url="jdbc:mysql://localhost:3306/db14hhm?useUnicode=true&amp;characterEncoding=UTF-8"
+					validationQuery="select 1"
+					maxActive="10"
+					maxIdle="4"
+	/>
+</Context>

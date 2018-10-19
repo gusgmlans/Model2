@@ -1,0 +1,25 @@
+package kr.or.ksmart.forward;
+
+public class UserActionForward {
+	
+	private boolean isRedirect = false;
+	private String path = null;
+	
+	public boolean isRedirect() {
+		return isRedirect;
+	}
+	
+	public void setRedirect(boolean isRedirect) {
+		System.out.println(isRedirect + "<--isRedirect setRedirect UserActionForward.java");
+		this.isRedirect = isRedirect;
+	}
+	
+	public String getPath() {
+		return path;
+	}
+	
+	public void setPath(String path) {
+		System.out.println(path + "<--path setPath UserActionForward.java");
+		this.path = path;
+	}
+}
