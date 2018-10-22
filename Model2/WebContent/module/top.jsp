@@ -20,8 +20,8 @@
 %>         
 	<!-- 로그인 전 화면 시작 -->		       	 
 	<form action = "<%=request.getContextPath()%>/User/userLogin.hhm" method = "post">
-		아이디: <input type="text" name="u_id">
-		비밀번호: <input type="password" name="u_pw">
+		아이디: <input type="text" name="u_id" value="id001">
+		비밀번호: <input type="password" name="u_pw" value="pw001">
 		<input type="submit" value="로그인">
 	</form><br>		   
 	<!-- 로그인 전 화면 End -->

@@ -242,7 +242,7 @@ public class GoodsDao {
 		
 		}else if(searchKey != null & searchValue != null){
 			System.out.println("03조건_둘다 값이 있다");
-			preparedStatement = connection.prepareStatement("SELECT g_code, u_id, g_name, g_cate, g_price, g_color, g_size, g_date, g_desc FROM tb_goods WHERE"+searchKey+"= ?");
+			preparedStatement = connection.prepareStatement("SELECT g_code, u_id, g_name, g_cate, g_price, g_color, g_size, g_date, g_desc FROM tb_goods WHERE "+searchKey+"= ?");
 			preparedStatement.setString(1, searchValue);
 		}
 		
